@@ -1,0 +1,35 @@
+# AMPSynth / ELK Python dependencies
+#
+# Recommended environment:
+#   Python 3.10
+#   Linux
+#   NVIDIA GPU with a CUDA-enabled PyTorch build
+#
+# PyTorch
+torch>=2.4,<2.7
+
+# Protein language models
+fair-esm==2.0.0
+transformers>=4.44,<5.0
+accelerate>=0.34,<2.0
+
+# ELK sequence modeling
+xlstm>=2.0,<3.0
+
+# Scientific computing and machine learning
+numpy>=1.26,<3.0
+pandas>=2.1,<3.0
+scipy>=1.11,<2.0
+scikit-learn>=1.3,<2.0
+
+# Data I/O
+openpyxl>=3.1,<4.0
+
+# Evaluation utilities
+biopython>=1.83,<2.0
+python-Levenshtein>=0.25,<1.0
+modlamp>=4.3,<5.0
+
+# Visualization and progress bars
+matplotlib>=3.8,<4.0
+tqdm>=4.66,<5.0
